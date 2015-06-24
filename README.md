@@ -1,9 +1,7 @@
 # csspreload
-CSS page preloading animation demo
+CSS page preloading animation demo Login and preload page with CSS3. 
 
-Login and preload page with CSS3. 
-
-User: john.doe@gmail.com
+User: john.doe@gmail.com <br/>
 Pass: abc123
 
-Live demo: gusgarsaky.github.com/csspreload
+Live demo: https://gusgarsaky.github.com/csspreload
