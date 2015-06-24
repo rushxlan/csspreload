@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/vendor/normalize.css"/>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/main.css"/>
+	<title>Login</title>
+</head>
+<body>
+	<section class="main">
+		<form id="loginFrm" class="form">
+			<figure class="tooltip"></figure>
+			<section class="form-head">
+				<span>Login</span>
+				<figure class="logo"></figure>
+			</section>
+			<section class="form-body">
+				<div class="group">
+					<label for="user">Email:</label>
+					<input type="text" id="user" class="txt">
+				</div>
+				<div class="group">
+					<label for="pass">Password:</label>
+					<input type="password" id="pass" class="txt">
+				</div>
+				<div class="group flex-end">
+					<button type="submit" id="login" class="btn btn-radical">login</button>
+				</div>	
+			</section>
+		</form>
+	</section>
+	<script>
+		'use strict';
+		window.addEventListener('load', function() {
+			let main = document.querySelector('.main');
+			main.classList.add('visible');
+		});
+	</script>
+	<script src="js/auth.js"></script>
+</body>
+</html>
